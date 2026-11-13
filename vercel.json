@@ -1,0 +1,17 @@
+{
+  "rewrites": [
+    {
+      "source": "/rss-fetch",
+      "destination": "/api/rss-fetch"
+    },
+    {
+      "source": "/og-image",
+      "destination": "/api/og-image"
+    }
+  ],
+  "functions": {
+    "api/*.js": {
+      "maxDuration": 30
+    }
+  }
+}
