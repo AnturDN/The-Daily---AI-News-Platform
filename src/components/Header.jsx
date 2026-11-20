@@ -41,7 +41,7 @@ export default function Header({
             className="w-full h-9 bg-raised border border-transparent focus:border-hairline focus:bg-surface rounded-lg pl-9 pr-3 text-sm text-ink placeholder:text-ink-3 outline-none transition-colors"
           />
         </div>
-
+        
         <select
           value={dateFilter}
           onChange={(e) => setDateFilter(e.target.value)}
