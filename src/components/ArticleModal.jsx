@@ -20,6 +20,7 @@ export default function ArticleModal({
   isBookmarked, onToggleBookmark, onShare,
   fontScale, setFontScale,
 }) {
+  
   const [aiSummary, setAiSummary] = useState(null);
   const [aiLoading, setAiLoading] = useState(false);
   const [aiError, setAiError] = useState(null); // { kind, message } — never a raw provider string
