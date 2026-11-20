@@ -26,6 +26,7 @@ export default function BreakingTicker({ articles, onArticleClick }) {
           <span className="w-1.5 h-1.5 rounded-[2px] bg-accent" aria-hidden="true"></span>
           <span className="font-mono text-xs text-ink-3">Latest</span>
         </span>
+        
         <div className="relative flex-1 overflow-hidden">
           <div className="animate-ticker flex w-max">
             {line('a')}
