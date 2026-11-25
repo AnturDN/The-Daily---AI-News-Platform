@@ -2,7 +2,6 @@ import { formatTime } from '../api/newsApi';
 
 export default function BreakingTicker({ articles, onArticleClick }) {
   if (!articles.length) return null;
-
   const items = articles.slice(0, 8);
   const line = (keyPrefix) => (
     <div key={keyPrefix} className="flex items-center gap-10 shrink-0 pr-10">
