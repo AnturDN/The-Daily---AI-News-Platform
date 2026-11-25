@@ -11,6 +11,7 @@ export default function NewsSection({
   onClearBookmarks, onReachEnd,
   isRead, quotaBlocked, onForceRetry,
 }) {
+  
   const sentinelRef = useRef(null);
   const autoLoad = !showBookmarks && !loading && !error && !noMore;
   const retryButton = (
