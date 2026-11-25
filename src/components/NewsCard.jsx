@@ -4,7 +4,6 @@ import { formatTime, readingTime } from '../api/newsApi';
 import useOgImage from '../hooks/useOgImage';
 
 export default function NewsCard({ article, isBookmarked, isRead, toggleBookmark, onArticleClick }) {
-
   const [imgBroken, setImgBroken] = useState(false);
   const image = useOgImage(article);
   const showImage = Boolean(image) && !imgBroken;
