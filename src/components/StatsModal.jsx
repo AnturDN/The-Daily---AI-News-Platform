@@ -15,6 +15,7 @@ export default function StatsModal({ stats, savedCount, onClose, onReset }) {
     if (!entries.length) return null;
     return entries.sort((a, b) => b[1] - a[1])[0];
   };
+  
   const topCategory = top(stats.categories);
   const topSource = top(stats.sources);
 
