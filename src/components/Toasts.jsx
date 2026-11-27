@@ -11,6 +11,7 @@ export default function Toasts({ toasts }) {
           key={t.id}
           className="animate-toast-in h-8 max-w-full px-3 rounded-lg bg-ink text-bg text-sm flex items-center gap-2 truncate"
         >
+          
           {t.text}
         </div>
       ))}
