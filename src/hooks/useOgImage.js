@@ -22,6 +22,7 @@ export default function useOgImage(article) {
     return () => { dead = true; };
   }, [url, feedImage]);
 
+  
   const ogImage = resolved && resolved.url === url ? resolved.img : null;
   return feedImage || ogImage;
 }
