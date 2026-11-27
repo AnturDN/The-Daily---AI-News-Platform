@@ -64,6 +64,7 @@ export default function Header({
           >
             <Activity size={16} strokeWidth={1.5} />
           </button>
+          
           <button
             onClick={onRefresh}
             className="h-9 w-9 grid place-items-center rounded-lg text-ink-3 hover:text-ink hover:bg-raised transition-colors hidden md:grid"
@@ -71,6 +72,7 @@ export default function Header({
           >
             <RefreshCw size={16} strokeWidth={1.5} className={loading ? 'animate-spin' : ''} />
           </button>
+          
           <button
             onClick={() => setShowBookmarks(!showBookmarks)}
             className={`h-9 w-9 grid place-items-center rounded-lg transition-colors ${
