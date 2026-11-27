@@ -11,7 +11,6 @@ export default function Footer({ handleSelectCategory }) {
               Live headlines from Google News RSS with the photography of Prothom Alo, BBC Bangla and Bangla Tribune in 30 editions and 17 languages, each summarized by Groq or Gemini AI.
             </p>
           </div>
-
           <div>
             <h4 className="text-[13px] font-medium text-ink-2 mb-4">Categories</h4>
             <ul className="space-y-2 text-sm">
