@@ -1,5 +1,6 @@
 export default function SkeletonCard() {
   return (
+    
     <div className="flex flex-col animate-pulse">
       <div className="aspect-[16/9] bg-raised mb-3"></div>
       <div className="h-3 bg-raised w-1/3 mb-2"></div>
