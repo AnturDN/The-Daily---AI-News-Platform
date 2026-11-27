@@ -18,7 +18,6 @@ export default function StatsModal({ stats, savedCount, onClose, onReset }) {
   
   const topCategory = top(stats.categories);
   const topSource = top(stats.sources);
-
   const since = stats.since
     ? new Date(stats.since).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
     : 'today';
