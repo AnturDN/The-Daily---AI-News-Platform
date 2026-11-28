@@ -26,6 +26,7 @@ const TOPIC_BY_CATEGORY = {
 
 /* Google News 302s a language-only request to its default edition, so every
    URL pins the full edition triple; "Worldwide" means the language's home. */
+
 const HOME_COUNTRY_BY_LANG = {
   en: 'US', bn: 'BD', hi: 'IN', ar: 'SA', de: 'DE', fr: 'FR', es: 'ES', pt: 'PT',
   it: 'IT', nl: 'NL', tr: 'TR', ru: 'RU', zh: 'CN', ja: 'JP', ko: 'KR', vi: 'VN', th: 'TH',
@@ -33,6 +34,7 @@ const HOME_COUNTRY_BY_LANG = {
 
 /* The photography layer of the wire — keyless feeds that carry their own
    pictures, merged into the front page and the wire of their language. */
+
 const EDITION_FEEDS = {
   bn: [
     { url: 'https://www.prothomalo.com/stories.rss', source: { name: 'প্রথম আলো', url: 'https://www.prothomalo.com' } },
